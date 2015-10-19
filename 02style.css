@@ -1,0 +1,44 @@
+/*
+CSS文本效果：
+    text-shadow:向文本添加阴影
+    word-wrap:规定文本的换行规则  自动换行，要提前规定宽度才可以
+
+*/
+
+
+body{
+    color: aqua;
+}
+
+h1{
+    color: gainsboro;
+    /*text-indent: -2em;
+    padding-left: 2em;*/
+}
+/*p{
+    padding-left: 2em;
+}*/
+/*
+p{
+    color: red;
+    text-align: center;
+}*/
+
+h4{
+    text-indent: 2em;  /*首行缩进两个字符*/
+}
+#p1{
+    text-transform: capitalize; /*规范大小写----首字母大写*/
+}
+#p2{
+    text-transform: lowercase; /*规范大小写----全部小写*/
+}
+#p3{
+    text-transform: uppercase; /*规范大小写----全部大写*/
+}
+p{
+    text-shadow: 5px 5px 1px #FF0000;/*浮标距左，浮标距右，浮标清晰度，浮标颜色*/
+
+    width: 300px;
+    text-wrap: normal;
+}

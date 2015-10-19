@@ -1,0 +1,17 @@
+body{
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+/*
+    background-position: right top;
+*/
+/*
+    background-size: 1000px 1000px;
+*/
+/*
+    background-origin: padding-box;  //规定背景图片的定位区域
+*/
+/*
+    background-attachment: fixed;
+*/
+    background-clip: content-box; //规定背景的绘制区域
+}
