@@ -1,0 +1,23 @@
+/*
+1、CSS字体
+    css字体属性定义文本的字体系列，大小，加粗，风格和变形
+    font-family, font-size
+    font-style 设置字体风格
+    font-variant 以小型大写字体或正常字体显示文本
+    font-weight 设置字体粗细
+
+*/
+
+p{
+    font-size: 40px;
+    font-family: fantasy;
+}
+/*
+定义自己的字体，以myfont命名，通过url上传，使用时，就可以直接引用myfont字体
+@font-face {
+    font-family: myfont;
+    src: url();
+}
+div{
+    font-family: myfont;
+}*/

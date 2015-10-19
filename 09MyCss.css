@@ -1,0 +1,16 @@
+/*
+八、CSS基础--介绍及语法
+    4、CSS派生选择器
+        通过依据元素在其位置的上下文关系来定义样式
+    5、CSS选择器
+    6、CSSid选择器
+    7、CSS类选择器
+    8、CSS属性选择器
+*/
+li strong{
+    color: red;
+}
+
+strong{
+    color: blueviolet;
+}

@@ -1,0 +1,17 @@
+/*
+八、CSS基础--介绍及语法
+    6、CSSid选择器
+        id选择器：
+            id选择器可以为标有id的HTML元素指定特定的样式
+            id选择器以“#”来定义
+        id选择器和派生选择器：
+            目前比较常用的方式是id选择器常常用于建立派生选择器
+    7、CSS类选择器
+    8、CSS属性选择器
+*/
+#pid a{
+    color: blueviolet;
+}
+#divid p{
+    color: red;
+}

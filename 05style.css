@@ -1,0 +1,25 @@
+/*
+五、CSS样式--列表
+    1、CSS列表
+        CSS列表属性允许你放置、改变列表标志，或者将图像作为列表项标志
+    2、属性
+        list-style   简写列表项
+        list-style-image 列表项图像
+        list-style-position列表标志位置
+        list-style-type 列表类型
+*/
+
+ul li{
+    /*list-style-type: circle;*/
+    /*list-style-type: decimal;*/
+    /*list-style-type: disc;*/
+    list-style-image: url("img/icon-glass.png");
+}
+
+ul.ul1{
+    list-style-position: inside;
+}
+
+ul.ul2{
+    list-style-position: outside;
+}

@@ -1,0 +1,14 @@
+/*
+八、CSS基础--介绍及语法
+    7、CSS类选择器
+       类选择器：
+            类选择器以一个点显示
+       class也可以用作派生选择器
+    8、CSS属性选择器
+*/
+.pclass a{
+    color: red;
+}
+.divclass p{
+    color: blueviolet;
+}

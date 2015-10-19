@@ -1,0 +1,38 @@
+/*
+六、CSS样式--表格
+    1、CSS表格
+        CSS表格属性可以帮助我们极大的改善表格的外观
+    2、表格边框
+    3、折叠边框
+    4、表格宽高
+    5、表格文本对齐
+    6、表格内边距
+    7、表格颜色
+*/
+/*#tb,tr,th,td{
+    border: 1px solid #0000ff;
+    text-align: center;
+    background-color: aqua;
+}
+#tb{
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse;
+}*/
+#tb{
+    border-collapse: collapse;
+    width: 500px;
+}
+#tb td,#tb th{
+    border: 1px solid bisque;
+    padding: 5px;
+}
+#tb th{
+    text-align: left;
+    background-color: aqua;
+    color: #FFFFFF;
+}
+#tb tr.alt td{
+    color: black;
+    background-color: aquamarine;
+}
