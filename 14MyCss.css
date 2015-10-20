@@ -1,0 +1,10 @@
+/*
+CSS盒子模型----内边距
+    CSS内边距
+        内边距在content外，边框内
+    内边距属性
+        padding, padding-bottom, padding-left, padding-right, padding-top
+*/
+td{
+    padding: 100px;
+}

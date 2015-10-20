@@ -1,0 +1,32 @@
+/*
+CSS盒子模型----外边距
+    外边距：
+        围绕在内容边框的区域就是外边距，外边距默认为透明区域
+        外边距接受任何长度单位、百分数值
+    外边距常用属性：
+        margin, margin-bottom, margin-left, margin-right, margin-top
+*/
+
+body{
+    margin: 0;
+}
+/*
+.mg{
+    background-color: #0000ff;
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+}*/
+
+.container{
+    margin: 10px;
+}
+.bd{
+    border-style: dashed;
+}
+.pd{
+    padding: 10px;
+}
+.content{
+    background-color: #0000ff;
+}

@@ -1,0 +1,49 @@
+/*
+CSS盒子模型----边框
+    CSS边框
+        我们可以创建出效果出色的边框，并且可以应用于任何元素
+    边框的样式
+        border-style:定义了10个不同的非继承样式，包括none
+    边框的单边样式
+        border-top-style, border-left-style, border-right-style, border-bottom-style
+    边框的宽度
+        border-width
+    边框单边的宽度
+        border-top-width, border-left-width, border-right-width, border-bottom-width
+    边框的颜色
+        border-color
+    边框单边的颜色
+        border-top-color
+    CSS3边框
+        border-radius:圆角边框
+        box-shadow:边框阴影
+        border-image:边框图片
+*/
+
+p{
+    /*border-style: double;*/
+   /* border-style: dotted;
+    border-top: double;
+    border-top-width: 10px;
+    border-color: aquamarine;*/
+    border-radius: 10px;
+    width: 100px;
+    background-color: aquamarine;
+    text-align: center;
+    border: 2px solid #0000ff;
+}
+
+.cssid{
+    background-color: #0000ff;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    box-shadow: 10px 10px 5px #ffccff;
+}
+
+.cssimg{
+    width: 100px;
+    height: 100px;
+    border-image: url("img/3.jpg");
+    background-color: #ffccff;
+}
