@@ -1,0 +1,48 @@
+/*
+CSS动画
+    2D、3D转换
+        通过CSS3转换，我们能够对元素进行移动、缩放、转动、拉长或拉伸
+            转换是使元素改变形状、尺寸和位置的一种效果
+            可以使用2D、3D来转换元素
+        2D转换方法：
+            translate()
+            rotate()    旋转效果
+            scale()     缩放效果，横轴方向和竖轴方向
+            skew()       翻转效果
+            matrix()     矩阵效果
+        3D转换方法：
+            rotateX()
+            rotateY()
+    过渡
+        通过使用css3,可以给元素添加一些效果
+        css3过渡是元素从一种样式转换成另一种样式
+            动画效果的CSS
+            动画执行的时间
+        属性
+            transition 设置四个过渡属性
+            transition-property 过渡的名称
+            transition-duration 过渡效果花费的时间
+            transition-timing-function 过渡效果的时间曲线
+            transition-delay 过渡效果开始时间
+    动画
+    多列
+*/
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: #0000ff;
+    -webkit-transition:width 2s, height 2s, -webkit-transform 2s;
+    -moz-transition : width 2s, height 2s, transform 2s;
+    -ms-transition: width 2s, height 2s, transform 2s;
+    -o-transition:width 2s, height 2s, transform 2s;
+    /*transition: width 2s, height 2s, transform 2s;*/
+    -wibkit-transition-delay:2s;
+    transition-delay:2s;  /*鼠标放上去2s才开始执行动画效果*/
+}
+div:hover{
+    width:200px;
+    height: 200px;
+    transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+}

@@ -1,0 +1,62 @@
+/*
+CSS动画
+    2D、3D转换
+        通过CSS3转换，我们能够对元素进行移动、缩放、转动、拉长或拉伸
+            转换是使元素改变形状、尺寸和位置的一种效果
+            可以使用2D、3D来转换元素
+        2D转换方法：
+            translate()
+            rotate()    旋转效果
+            scale()     缩放效果，横轴方向和竖轴方向
+            skew()       翻转效果
+            matrix()     矩阵效果
+        3D转换方法：
+            rotateX()
+            rotateY()
+    过渡
+    动画
+    多列
+*/
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: #0000ff;
+}
+/*
+.div2{
+     transform:translate(100px, 100px);
+     -webkit-transform:translate(200px, 100px);  safari chrome
+     -ms-transform:translate(200px, 100px);IE
+     -o-transform:translate(200px, 100px);opera
+     -moz-transform:translate(200px, 100px);FireFox
+ }*/
+/*.div2{
+    transform:rotate(200deg);
+    -webkit-transform:rotate(200deg);  *//*safari chrome*//*
+    -ms-transform:rotate(200deg);      *//*IE*//*
+    -o-transform:rotate(200deg);       *//*opera*//*
+    -moz-transform:rotate(200deg);     *//*FireFox*//*
+}*/
+/*
+.div2{
+    margin-top: 200px;
+    transform:scale(1,2);
+    -webkit-transform:scale(1,2);  *//*safari chrome*//*
+    -ms-transform:scale(1,2);      *//*IE*//*
+    -o-transform:scale(1,2);       *//*opera*//*
+    -moz-transform:scale(1,2);     *//*FireFox*//*
+}*/
+
+/*倾斜效果skew(绕X轴倾斜角度, 绕Y轴倾斜角度); deg表示度数*/
+/*.div2{
+    transform:skew(20deg, 20deg);
+    -webkit-transform:skew(20deg, 20deg);  *//*safari chrome*//*
+    -ms-transform:skew(20deg, 20deg);      *//*IE*//*
+    -o-transform:skew(20deg, 20deg);      *//*opera*//*
+    -moz-transform:skew(20deg, 20deg);     *//*FireFox*//*
+}*/
+.div2{
+    transform:rotateX(120deg);
+    -webkit-transform:rotateY(120deg);
+}

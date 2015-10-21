@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>CSS选择器</title>
+    <link type="text/css" rel="stylesheet" href="23MyCss.css">
+    <!--属性选择器-->
+    <style>
+        [title~="title"]{    /*属性选择器 ~= 代表选择部分属性*/
+            color: aqua;
+        }
+        a[href="http://www.jikexueyuan.com"]{
+            color: red;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+<div id="div">hello shirley</div>
+<!--属性选择器-title值可以任意指定-->
+<p title="title">title</p>
+<p title="t">title</p>
+<p title="title hello">title</p>
+<p title="titi hello">title</p>
+<a href="http://www.jikexueyuan.com">我们的学习家园</a>
+<a href="http://www.sdsdsd.com">错了吗？</a>
+
+
+
+<!--后代选择器-->
+<p>this is my <strong>web</strong> page</p>
+
+<!--子元素选择器-->
+<h1>hello <strong>shirley</strong>, I am coming</h1>
+<p>hello <strong>shirley</strong>, I am coming</p>
+
+<!--相邻兄弟选择器-->
+<ul>
+    <li>hello</li>
+    <li>hello</li>
+    <li>hello</li>
+</ul>
+
+</body>
+</html>

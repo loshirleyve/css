@@ -1,0 +1,48 @@
+/*
+CSS选择器
+            对齐操作
+                使用margin属性进行水平对齐
+                使用position属性进行左右对齐
+                使用float属性进行左右对齐
+            尺寸操作
+                属性：height, line-height, max-height, max-width, min-width, min-height, width
+            分类操作
+                属性：
+                    clear 设置一个元素的侧面是否允许其他浮动元素
+                    cursor 规定当指向某元素上时显示的指针类型
+                    display 设置是否及如何显示元素
+                    float 定义元素在那个方向浮动
+                    position 把元素放置到一个静态的、相对的、绝对的、固定的位置
+                    visibility 设置元素是否可见或不可见
+    导航栏
+        垂直导航栏
+        水平导航栏
+        图片操作
+*/
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: burlywood;
+    width: 250px;
+    text-align: center;
+}
+a:link, a:visited{
+    font-weight: bold;
+    text-decoration: none;
+    /*display: block;*/
+    background-color: burlywood;
+    color: aliceblue;
+    width: 50px;
+    text-align: center;
+}
+a:active,a:hover{
+    background-color: crimson;
+}
+
+li{
+    display: inline;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}

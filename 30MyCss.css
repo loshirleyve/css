@@ -1,0 +1,57 @@
+/*
+CSS动画
+    2D、3D转换
+        通过CSS3转换，我们能够对元素进行移动、缩放、转动、拉长或拉伸
+            转换是使元素改变形状、尺寸和位置的一种效果
+            可以使用2D、3D来转换元素
+        2D转换方法：
+            translate()
+            rotate()    旋转效果
+            scale()     缩放效果，横轴方向和竖轴方向
+            skew()       翻转效果
+            matrix()     矩阵效果
+        3D转换方法：
+            rotateX()
+            rotateY()
+    过渡
+        通过使用css3,可以给元素添加一些效果
+        css3过渡是元素从一种样式转换成另一种样式
+            动画效果的CSS
+            动画执行的时间
+        属性
+            transition 设置四个过渡属性
+            transition-property 过渡的名称
+            transition-duration 过渡效果花费的时间
+            transition-timing-function 过渡效果的时间曲线
+            transition-delay 过渡效果开始时间
+    动画
+        通过CSS3，也可以进行创建动画了
+        CSS3的动画需要遵循@keyframes规则
+            规定动画的时长
+            规定动画的名称
+    多列
+*/
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation:anim 5s infinite alternate; /*infinite alternate表示可以一直执行下去*/
+    -webkit-animation:anim 5s infinite alternate;
+}
+
+@keyframes anim{
+    0%{background: red; left: 0px; top: 0px}
+    25%{background: #0000ff;left: 200px;top: 0px}
+    50%{background: #ccffcc;left: 200px;top: 200px}
+    75%{background: #0000ff;left: 0px;top: 200px}
+    100%{background: red; left: 0px;top:0px}
+}
+@-webkit-keyframes anim{
+    0%{background: red; left: 0px; top: 0px}
+    25%{background: #0000ff;left: 200px;top: 0px}
+    50%{background: #ccffcc;left: 200px;top: 200px}
+    75%{background: #0000ff;left: 0px;top: 200px}
+    100%{background: red; left: 0px;top:0px}
+    }

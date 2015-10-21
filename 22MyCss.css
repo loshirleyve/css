@@ -1,0 +1,52 @@
+/*
+CSS选择器
+    元素选择器
+        最常见的选择器，文档的元素就是最基本的选择器，如h1{},a{}
+    选择器分组
+        例子：h1,h2{}
+    类选择器详解
+        允许以一种独立与文档元素的方式来指定样式 如：.class{}
+        结合元素选择器 如：a.class{}
+        多类选择器 如：.class.class{}
+    ID选择器详解
+    属性选择器详解
+    后代选择器
+    子元素选择器
+    相邻兄弟选择器
+*/
+/*
+p{
+    color:#0000ff;
+}*/
+
+/*通配符的使用*/
+/*
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2{
+    color: red;
+    font-size: 45px;
+}
+p{
+    color: #0000ff;
+}*/
+div{
+    color: #0000ff;
+}
+a.div{
+    color: red;
+}
+.p1{
+    color: #0000ff;
+}
+.p2{
+    font-size: 30px;
+}
+.p3{
+    font-style: oblique;
+}
+.p1.p2{
+    font-style: italic;
+}

@@ -1,0 +1,26 @@
+/*
+CSS选择器
+    对齐操作
+        使用margin属性进行水平对齐
+        使用position属性进行左右对齐
+        使用float属性进行左右对齐
+    尺寸操作
+    分类操作
+    导航栏
+    图片操作
+*/
+*{
+    margin: 0px;
+}
+
+.div{
+    width: 70%;
+    height: 1000px;
+    background-color: red;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*float: left;*/
+    margin: 0px auto;
+}

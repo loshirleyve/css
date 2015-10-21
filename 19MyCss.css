@@ -14,3 +14,32 @@ CSS定位
         vertical-align,设置元素垂直对齐方式
         z-index，设置元素的堆叠顺序
 */
+
+#position1{
+    width: 100px;
+    height: 100px;
+    background-color: #0000ff;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 2;
+}
+
+#position2{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 3;
+}
+#position3{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    z-index: 1;
+}

@@ -1,0 +1,26 @@
+/*
+CSS选择器
+    对齐操作
+        使用margin属性进行水平对齐
+        使用position属性进行左右对齐
+        使用float属性进行左右对齐
+    尺寸操作
+        属性：height, line-height, max-height, max-width, min-width, min-height, width
+    分类操作
+        属性：
+            clear 设置一个元素的侧面是否允许其他浮动元素
+            cursor 规定当指向某元素上时显示的指针类型
+            display 设置是否及如何显示元素
+            float 定义元素在那个方向浮动
+            position 把元素放置到一个静态的、相对的、绝对的、固定的位置
+            visibility 设置元素是否可见或不可见
+    导航栏
+    图片操作
+*/
+p{
+    cursor: no-drop;
+}
+li{
+    display: inline;
+    visibility: visible;
+}
