@@ -44,14 +44,14 @@ li{
     padding-left: 10px;
     display: inline;
 }
-a:link, a:visited{
+a:link,a:visited{
     font-weight: bold;
     color: darkgray;
     text-align: center;
     padding: 6px;
     text-decoration: none;
 }
-a:hover, a:active{
+a:hover,a:active{
     color: dimgray;
 }
 .heading_img img{
@@ -59,7 +59,7 @@ a:hover, a:active{
     display: inline;
     width: 26px;
     height: 26px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2);
     float: right;
 }
 .heading_soptlight form{
@@ -70,6 +70,7 @@ a:hover, a:active{
     margin-right: 50px;
 }
 form input{
+    width: 120px;
     height: 26px;
     border-radius: 30px;
 }
@@ -89,6 +90,7 @@ form input{
 }
 .footing{
     padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     font-size: 10px;
     color: darkgray;
